@@ -1,4 +1,6 @@
 import {Component} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {HeroDetailComponent} from './../hero-detail/hero-detail.component';
 import {
   NgIf,
   NgFor,
@@ -19,7 +21,8 @@ import {HEROES} from '../mock-heroes';
     NgIf,
     NgFor,
     UpperCasePipe,
-  ],
+    HeroDetailComponent
+],
 })
 
 export class HeroesComponent {
