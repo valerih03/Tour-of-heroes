@@ -25,7 +25,7 @@
 }
 
 .heroes button:hover {
-  color: #2c3a41;
+  color: #412c38;
   background-color: #e6e6e6;
   left: .1em;
 }
@@ -55,7 +55,7 @@
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #405061;
+  background-color: #1478e2; /*botones numericos */
   line-height: 1em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
